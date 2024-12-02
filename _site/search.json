@@ -1,16 +1,58 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\nrunif(10)\n\n [1] 0.52664152 0.09902940 0.05887594 0.11316586 0.65066449 0.45784661\n [7] 0.75827696 0.93784706 0.17562706 0.68206037"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Trent Bellinger’s Personal Website",
+    "title": "Trent Bellinger",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 3\n\n[1] 4"
+    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.\nDownload Resume"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Trent Bellinger",
+    "section": "Education",
+    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Trent Bellinger",
+    "section": "Experience",
+    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+  },
+  {
+    "objectID": "projects/project2.html",
+    "href": "projects/project2.html",
+    "title": "Project 2",
+    "section": "",
+    "text": "Some complicated statistics project\n\nrnorm(100) |&gt; hist()"
+  },
+  {
+    "objectID": "projects/project1.html",
+    "href": "projects/project1.html",
+    "title": "Project 1",
+    "section": "",
+    "text": "Some complicated statistics project\n\nrunif(10)\n\n [1] 0.97941538 0.39231436 0.20091596 0.86307367 0.32965390 0.79746901\n [7] 0.17450656 0.22492928 0.22963851 0.04022438"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Trent Bellinger's Personal Website",
+    "section": "",
+    "text": "Here is my project 1"
+  },
+  {
+    "objectID": "projects.html#project-1",
+    "href": "projects.html#project-1",
+    "title": "Trent Bellinger's Personal Website",
+    "section": "",
+    "text": "Here is my project 1"
+  },
+  {
+    "objectID": "projects.html#project-2",
+    "href": "projects.html#project-2",
+    "title": "Trent Bellinger's Personal Website",
+    "section": "Project 2",
+    "text": "Project 2\nHere is my project 2"
   }
 ]

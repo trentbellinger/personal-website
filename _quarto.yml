@@ -4,16 +4,24 @@ project:
 website:
   title: "Trent Bellinger's Personal Website"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: projects.qmd
+        text: Projects
+  page-footer: 
+    right: "&copy; 2024, Trent Bellinger"
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    published-title: "last updated"
+    case-fold: false
+    code-summary: ""
+    fontsize: 1.3em
 
-
+execute:
+  freeze: auto
 
