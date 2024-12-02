@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -182,36 +182,49 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="project-2">Project 2</h2>
 <p>Here is my <a href="./projects/project2.html">project 2</a></p>
 <hr>
+<p>Text above</p>
 <div class="projects-listing">
 
 </div>
+<p>Text below</p>
 
 
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-projects-listing">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1733099398786" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Project 1" data-listing-filename-sort="project1.qmd">
-<td>
-<a href="./projects/project1.html" class="title listing-title">Project 1</a>
-</td>
-</tr>
-<tr data-index="1" data-listing-file-modified-sort="1733099664819" data-listing-reading-time-sort="1" data-listing-word-count-sort="6" data-listing-title-sort="Project 2" data-listing-filename-sort="project2.qmd">
-<td>
-<a href="./projects/project2.html" class="title listing-title">Project 2</a>
-</td>
-</tr>
-</tbody>
-</table>
+<div class="quarto-listing quarto-listing-container-grid" id="listing-projects-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1733101797572" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+<a href="./projects/project1.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Project 1
+</h5>
+<div class="card-subtitle listing-subtitle">
+Subtitle 1
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1733101806308" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<a href="./projects/project2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="projects/project2_files/figure-html/unnamed-chunk-1-1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Project 2
+</h5>
+<div class="card-subtitle listing-subtitle">
+Subtitle 2
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>

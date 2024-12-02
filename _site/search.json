@@ -32,7 +32,7 @@
     "href": "projects/project1.html",
     "title": "Project 1",
     "section": "",
-    "text": "Some complicated statistics project\n\nrunif(10)\n\n [1] 0.97941538 0.39231436 0.20091596 0.86307367 0.32965390 0.79746901\n [7] 0.17450656 0.22492928 0.22963851 0.04022438"
+    "text": "Some complicated statistics project\n\nrunif(10)\n\n [1] 0.57576281 0.86240983 0.71906626 0.78340170 0.56296022 0.07504723\n [7] 0.46023401 0.69882481 0.88656273 0.37082119"
   },
   {
     "objectID": "projects.html",
@@ -53,6 +53,6 @@
     "href": "projects.html#project-2",
     "title": "Trent Bellinger's Personal Website",
     "section": "Project 2",
-    "text": "Project 2\nHere is my project 2"
+    "text": "Project 2\nHere is my project 2\n\nText above\n\n\n\nText below"
   }
 ]

@@ -4,6 +4,8 @@ about:
   template: trestles
   image: profile.jpg
   links:
+    - text: Resume
+      url: "resume.pdf"
     - icon: linkedin
       text: LinkedIn
       url: "https://www.linkedin.com/in/trent-bellinger-84041a22b/"

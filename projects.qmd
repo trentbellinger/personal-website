@@ -8,9 +8,11 @@ listing:
     sort: false
     sort-ui: false
     filter-ui: false
-    type: table
+    type: grid
     fields: 
       - title
+      - subtitle
+      - image
     categories: false
 ---
 
@@ -24,6 +26,10 @@ Here is my [project 2](/projects/project2.qmd)
 
 ---
 
+Text above
+
 :::projects-listing
 :::
+
+Text below
 
