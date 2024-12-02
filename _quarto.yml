@@ -1,5 +1,7 @@
 project:
   type: website
+  resources: 
+    - resume.pdf
 
 website:
   title: "Trent Bellinger's Personal Website"
