@@ -1,38 +1,46 @@
 /* css styles */
-.cell {
-  margin-bottom: 1rem;
+
+/* General body styles */
+body {
+  background-color: #2e2e2e; /* Dark gray background */
+  color: #ffffff; /* Default text color: white */
+  font-family: Arial, sans-serif; /* Use a clean, readable font */
+  margin: 0;
+  padding: 0;
 }
 
-.cell > .sourceCode {
-  margin-bottom: 0;
+/* Title styles (e.g., h1, h2, h3) */
+h1, h2, h3, h4, h5, h6 {
+  color: #00aaff; /* Light blue for titles */
 }
 
-.cell-output > pre {
-  margin-bottom: 0;
+/* Link styles */
+a {
+  color: #00aaff; /* Light blue links */
+  text-decoration: none;
 }
 
-.cell-output > pre, .cell-output > .sourceCode > pre, .cell-output-stdout > pre {
-  margin-left: 0.8rem;
-  margin-top: 0;
-  background: none;
-  border-left: 2px solid lightsalmon;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+a:hover {
+  text-decoration: underline; /* Underline on hover for better UX */
 }
 
-.cell-output > .sourceCode {
-  border: none;
+/* Targeting header links in the about section */
+.about-links a {
+  display: inline-block;
+  background-color: #ffffff; /* White background */
+  color: #2e2e2e; /* Dark gray text */
+  padding: 10px 15px;
+  border: 2px solid #ffffff; /* Optional: Border matches background */
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px; /* Spacing between buttons */
+  transition: background-color 0.3s, color 0.3s;
 }
 
-.cell-output > .sourceCode {
-  background: none;
-  margin-top: 0;
-}
-
-div.description {
-  padding-left: 2px;
-  padding-top: 5px;
-  font-style: italic;
-  font-size: 135%;
-  opacity: 70%;
+/* Hover effect */
+.about-links a:hover {
+  background-color: #00aaff; /* Light blue background */
+  color: #ffffff; /* White text */
 }

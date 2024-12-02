@@ -16,20 +16,8 @@ listing:
     categories: false
 ---
 
-## Project 1
-
-Here is my [project 1](/projects/project1.qmd)
-
-## Project 2
-
-Here is my [project 2](/projects/project2.qmd)
-
----
-
-Text above
+These are a few of the data science projects that I have completed.
 
 :::projects-listing
 :::
-
-Text below
 

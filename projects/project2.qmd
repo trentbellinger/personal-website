@@ -1,12 +1,7 @@
 ---
-title: Project 2
-subtitle: Subtitle 2
-# image: images/
+title: Fake News Classifier
+subtitle: I created a model to distinguish between real and fake news articles.
+image: images/news.jpg
 ---
 
-
-Some complicated statistics project
-
-```{r}
-rnorm(100) |> hist()
-```
+<iframe src="files/news.html" style="width:155%; height:100vh; border:none;"  scrolling="yes"></iframe>

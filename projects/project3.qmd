@@ -1,0 +1,7 @@
+---
+title: Image Classification
+subtitle: I created a model to distinguish between images of cats and dogs.
+image: images/dogcat.jpg
+---
+
+<iframe src="files/dogcat.pdf" width="100%" height="600px"></iframe>

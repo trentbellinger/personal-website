@@ -1,12 +1,8 @@
 ---
-title: Project 1
-subtitle: Subtitle 1
-# image: images/
+title: Baseball Hit Probability Model
+subtitle: I used NCAA baseball data to create a model that predicts whether or not a batted ball will be a hit.
+image: images/baseball.jpg
 ---
 
+<iframe src="files/HitPredictionModel.html" style="width:155%; height:100vh; border:none;"  scrolling="yes"></iframe>
 
-Some complicated statistics project
-
-```{r}
-runif(10)
-```

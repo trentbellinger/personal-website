@@ -4,55 +4,27 @@
     "href": "index.html",
     "title": "Trent Bellinger",
     "section": "",
-    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.\nDownload Resume"
+    "text": "I am a current student at UCLA with a passion for data science and sports."
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Trent Bellinger",
     "section": "Education",
-    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
+    "text": "Education\nUniversity of California, Los Angeles\nB.S. Statistics and Data Science, Applied Mathematics with Specialization in Computing\nSept 2021 - June 2025"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
     "title": "Trent Bellinger",
     "section": "Experience",
-    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
-  },
-  {
-    "objectID": "projects/project2.html",
-    "href": "projects/project2.html",
-    "title": "Project 2",
-    "section": "",
-    "text": "Some complicated statistics project\n\nrnorm(100) |&gt; hist()"
-  },
-  {
-    "objectID": "projects/project1.html",
-    "href": "projects/project1.html",
-    "title": "Project 1",
-    "section": "",
-    "text": "Some complicated statistics project\n\nrunif(10)\n\n [1] 0.57576281 0.86240983 0.71906626 0.78340170 0.56296022 0.07504723\n [7] 0.46023401 0.69882481 0.88656273 0.37082119"
+    "text": "Experience\nSouthern California Edison | Data Science Intern | June 2024 - present\nUCLA Baseball | Data Consulting Team Lead | June 2024 - present\nUCLA Football | Data Consulting Team Lead | June 2024 - present"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Trent Bellinger's Personal Website",
     "section": "",
-    "text": "Here is my project 1"
-  },
-  {
-    "objectID": "projects.html#project-1",
-    "href": "projects.html#project-1",
-    "title": "Trent Bellinger's Personal Website",
-    "section": "",
-    "text": "Here is my project 1"
-  },
-  {
-    "objectID": "projects.html#project-2",
-    "href": "projects.html#project-2",
-    "title": "Trent Bellinger's Personal Website",
-    "section": "Project 2",
-    "text": "Project 2\nHere is my project 2\n\nText above\n\n\n\nText below"
+    "text": "These are a few of the data science projects that I have completed.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBaseball Hit Probability Model\n\n\nI used NCAA baseball data to create a model that predicts whether or not a batted ball will be a hit.\n\n\n\n\n\n\n\n\n\n\n\n\n\nFake News Classifier\n\n\nI created a model to distinguish between real and fake news articles.\n\n\n\n\n\n\n\n\n\n\n\n\n\nImage Classification\n\n\nI created a model to distinguish between images of cats and dogs.\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
